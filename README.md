@@ -1,5 +1,5 @@
 # compiler-rat15f-
-Compiler for the fictional language, rat15f.
+Compiler for the fictional language, rat15f. (Written in C++)
 
 Generates assembly code for the simplified version of Rat15F.
 
