@@ -1,0 +1,32 @@
+1 PUSHI 0
+2 POPM 3002
+3 PUSHI 1
+4 POPM 3000
+5 STDIN
+6 POPM 3001
+7 LABEL
+8 PUSHM 3000
+9 PUSHM 3001
+10 LES
+11 JUMPZ 21
+12 PUSHM 3002
+13 PUSHM 3000
+14 ADD
+15 POPM 3002
+16 PUSHM 3000
+17 PUSHI 1
+18 ADD
+19 POPM 3000
+20 JUMP 7
+21 PUSHM 3002
+22 PUSHM 3001
+23 ADD
+24 STDOUT
+
+
+		Symbol Table
+
+Identifier:         Memory Location:    Type:               
+i                   3000                Identifier          
+max                 3001                Identifier          
+sum                 3002                Identifier          

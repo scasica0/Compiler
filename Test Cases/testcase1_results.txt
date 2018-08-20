@@ -1,0 +1,11 @@
+1 PUSHI 1
+2 POPM 3000
+3 PUSHM 3000
+4 STDOUT
+
+
+		Symbol Table
+
+Identifier:         Memory Location:    Type:               
+a                   3000                Identifier          
+b                   3001                Identifier          

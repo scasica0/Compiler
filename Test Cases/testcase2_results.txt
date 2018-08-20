@@ -1,0 +1,20 @@
+1 PUSHI 1
+2 POPM 3000
+3 PUSHI 2
+4 POPM 3001
+5 PUSHM 3000
+6 PUSHM 3001
+7 LES
+8 JUMPZ 10
+9 PUSHM 3000
+10 LABEL
+11 JUMPZ 13
+12 PUSHM 3001
+13 LABEL
+
+
+		Symbol Table
+
+Identifier:         Memory Location:    Type:               
+a                   3000                Identifier          
+b                   3001                Identifier          
